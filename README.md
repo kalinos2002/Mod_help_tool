@@ -7,3 +7,7 @@ After your AI provide .zip file downlaod it to the same directory and hit "Refre
 After that select yopur newest zip hit "EXTRACT AND OVERWRITE STRUCTURE" button, and your project automatically updates, and after that u can hit Gradle Panel again to get new errors or succesfull build!
 
 im providing Python script if u dont trust online resources and .EXE file if u want ot use this on VM or with trust to me
+Of you want build your own .EXE file type this where your /pyw file is located and search for exe in libs/<generated_file>.EXE
+-> python -m PyInstaller --noconsole --onefile program.pyw
+
+Warning!!! THIS IS ONLY TESTED ON WINDOWS!!!
